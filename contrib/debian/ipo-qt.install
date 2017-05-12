@@ -1,0 +1,6 @@
+usr/local/bin/ipo-qt usr/bin
+share/pixmaps/ipo32.xpm usr/share/pixmaps
+share/pixmaps/ipo16.xpm usr/share/pixmaps
+share/pixmaps/ipo128.png usr/share/pixmaps
+debian/ipo-qt.desktop usr/share/applications
+debian/ipo-qt.protocol usr/share/kde4/services/

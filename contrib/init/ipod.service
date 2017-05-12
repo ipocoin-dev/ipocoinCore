@@ -1,0 +1,22 @@
+[Unit]
+Description=Ipo's distributed currency daemon
+After=network.target
+
+[Service]
+User=ipocore
+Group=ipocore
+
+Type=forking
+PIDFile=/var/lib/ipod/ipod.pid
+ExecStart=/usr/bin/ipod -daemon -pid=/var/lib/ipod/ipod.pid \
+-conf=/etc/ipocore/ipo.conf -datadir=/var/lib/ipod -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

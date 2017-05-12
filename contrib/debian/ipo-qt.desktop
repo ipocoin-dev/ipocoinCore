@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ipo
+Comment=Ipo P2P Cryptocurrency
+Comment[fr]=Ipo, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ipo, eşten eşe kriptografik sanal para birimi
+Exec=ipo-qt %u
+Terminal=false
+Type=Application
+Icon=ipo128
+MimeType=x-scheme-handler/ipo;
+Categories=Office;Finance;
